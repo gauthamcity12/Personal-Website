@@ -1,0 +1,56 @@
+body{
+  color: red;
+  background-image: url("space2.jpg");
+}
+
+.nav{
+  width: 100%;
+  list-style: none;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  font-family: "Georgia", Georgia, serif;
+}
+
+.nav ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav li{
+  margin: 0px;
+}
+
+.nav li a {
+  padding: 10px;
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.nav li a:hover{
+  color: blue;
+  background-color: white;
+}
+
+.title{
+  font-family: "Georgia", Georgia, serif;
+  color: white;
+}
+
+
+.second {
+  color: blue;
+  text-indent: 20px;
+  border: 1px solid blue;
+  padding: 2px; 
+}
+
+.rectangle{
+	border: 1px solid orange;
+	padding: 2px;
+}
