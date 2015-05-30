@@ -11,14 +11,16 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="main.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />`
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
 
-    <script src="jquery-1.11.3.min.js"></script>
+    <script src="Scripts/jquery-1.11.3.min.js"></script>
 
-    <script src="jq.js"></script>
+    <script src="Scripts/jq.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,7 +30,14 @@
     <![endif]-->
   </head>
   <body id="top">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
       <div class="container-fluid">
         <div>
           <ul class="nav navbar-nav navbar-left">
@@ -38,9 +47,9 @@
             <li><a href="#"> <h4>Contact</h4> </a> </li>
           </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"> <img class="me2" src="propic.png" style="height:40px; width:40px;"> </a> </li>
-            <li><a href="#"> <h4>Gautham Maran</h4> </a> </li>
+          <ul class="nav navbar-nav navbar-right" id="navbar">
+            <li><a href="http://www.linkedin.com/in/gauthammaran"> <img class="me2" src="Images/propic.png" style="height:40px; width:40px;"> </a> </li>
+            <li><a href="Images/GauthamMaranResume.pdf"> <h4>Gautham Maran</h4> </a> </li>
           </ul>
         </div>
       </div>
@@ -57,16 +66,16 @@
       <table class="table table-bordered">
         <tbody>
           <tr>
-            <td> <img src="java.png"> </td>
-            <td> <img src="htmllogo.png"> </td>
-            <td> <img src="csslogo.svg">  </td>
-            <td> <img src="clogo.png">  </td>
+            <td> <img src="Images/java.png"> </td>
+            <td> <img src="Images/htmllogo.png"> </td>
+            <td> <img src="Images/csslogo.svg">  </td>
+            <td> <img src="Images/clogo.png">  </td>
           </tr>
           <tr>
-            <td> <img src="sqllogo.png"> </td>
-            <td> <img src="polymerlogo.png"> </td>
-            <td> <img src="jslogo.png">  </td>
-            <td> <img src="jqlogo.gif">  </td>
+            <td> <img src="Images/sqllogo.png"> </td>
+            <td> <img src="Images/polymerlogo.png"> </td>
+            <td> <img src="Images/jslogo.png">  </td>
+            <td> <img src="Images/jqlogo.gif">  </td>
           </tr>
         </tbody>
       </table> 
@@ -75,9 +84,9 @@
       <table class="table table-bordered">
         <tbody>
           <tr>
-            <td> <img src="tghlogo.png"> </td>
-            <td> <img src="uwlogo.png" style="height:170px; width:250px;"> </td>
-            <td> <img src="uslogo.png" style="height:200px; width:190px;">  </td>
+            <td> <img src="Images/tghlogo.png"> </td>
+            <td> <img src="Images/uwlogo.png" style="height:170px; width:250px;"> </td>
+            <td> <img src="Images/uslogo.png" style="height:200px; width:190px;">  </td>
           </tr>
         </tbody>
       </table>
