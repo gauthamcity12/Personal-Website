@@ -1,10 +1,12 @@
 body, html {
 	width: 100%;
 	color: white;
-	padding-top: 70px; 
 	background: url("3.png");
+	padding-top: 70px; 
+	padding-bottom: 30px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 #title{
 	color:white;
 	text-align: center;
@@ -19,34 +21,15 @@ h2 small {
 	color: white;
 }
 
-table{
-	top-margin: 10px;
-	text-align: center;
-	border-collapse: separate;
-	border-spacing: 10px;
-}
-
-table img {
+.rows img{
 	width: 130px;
 	height: 130px;
+	padding: 10px;
+	text-align: center;
 	background-color: transparent;
 	/*box-shadow: 0px 0px 5px #000000*/
 }
 
-.table-bordered > thead > tr > th,
-.table-bordered > tbody > tr > th,
-.table-bordered > tfoot > tr > th,
-.table-bordered > thead > tr > td,
-.table-bordered > tbody > tr > td,
-.table-bordered > tfoot > tr > td { /* removes the border lines around the table */
-  border: 0px #dddddd;
-  border-right-width:0px;
-  border-left-width:0px;
-}
-
-.table{
-	border: 0px;
-}
 
 .pull-right{
 	color: white;
@@ -61,5 +44,3 @@ footer {
     z-index: 99;
     height: 25px;
 }
-
-

@@ -31,16 +31,18 @@
     <![endif]-->
   </head>
   <body id="top">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
     <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
       <div class="container-fluid">
-        <div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only"> Toogle Navigation </span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs">Gautham Maran</a>
+        </div>
+        <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-left">
             <li><a href="#top"> <h4>Home</h4> </a> </li>
             <li><a href="#abtme"> <h4>About Me</h4> </a> </li>
@@ -59,41 +61,51 @@
     <div class = "container">
 
       <h1 id="title">Hi! My Name is Gautham Maran!</h1>
-      <h1 class="text-center"><small> Welcome to My Webpage </small></h1>
+      <h1 class="text-center"><small> Undergraduate Student at Georgia Institute of Technology </small></h1>
       <h2 id="abtme"> About Me </h2>
       <h2><small> I'm an aspiring young computer scientist who's delving into both front-end and back-end development. Nearing the end of my college career, I've had experience with and am currently learning the following programming languages:</small></h2>
       <br> 
 
-      <table class="table table-bordered">
-        <tbody>
-          <tr>
-            <td> <img src="Images/java.png"> </td>
-            <td> <img src="Images/htmllogo.png"> </td>
-            <td> <img src="Images/csslogo.svg">  </td>
-            <td> <img src="Images/clogo.png">  </td>
-          </tr>
-          <tr>
-            <td> <img src="Images/sqllogo.png"> </td>
-            <td> <img src="Images/polymerlogo.png"> </td>
-            <td> <img src="Images/jslogo.png">  </td>
-            <td> <img src="Images/jqlogo.gif">  </td>
-          </tr>
-        </tbody>
-      </table> 
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-md-3 rows">
+          <img class="img-responsive" src="Images/java.png"> </td>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 rows">
+          <img class="img-responsive" src="Images/htmllogo.png"> </td>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 rows">
+          <img class="img-responsive" src="Images/csslogo.svg"> </td>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 rows">
+          <img class="img-responsive" src="Images/clogo.png"> </td>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 rows">
+          <img class="img-responsive" src="Images/sqllogo.png"> </td>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 rows">
+          <img class="img-responsive" src="Images/polymerlogo.png"> </td>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 rows">
+          <img class="img-responsive" src="Images/jslogo.png"> </td>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 rows">
+          <img class="img-responsive" src="Images/jqlogo.gif"> </td>
+        </div>
+      </div>
 
       <h2><small> Through my years attending Georgia Tech, below are a list of the companies I have done work with mainly in back-end development: </small></h2>
-      <table class="table table-bordered">
-        <tbody>
-          <tr>
-            <td> <img src="Images/tghlogo.png"> </td>
-            <td> <img src="Images/uwlogo.png" style="height:170px; width:250px;"> </td>
-            <td> <img src="Images/uslogo.png" style="height:200px; width:190px;">  </td>
-          </tr>
-        </tbody>
-      </table>
-
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 rows">
+          <img class="img-responsive" src="Images/tghlogo.png"> </td>
+        </div>
+        <div class="col-xs-6 col-sm-4 rows">
+          <img class="img-responsive" src="Images/uwlogo.png" style="height:170px; width:250px;"> </td>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 rows">
+          <img class="img-responsive" src="Images/uslogo.png" style="height:200px; width:190px;"> </td>
+        </div>
+      </div>
       <h2 id="prj"> Projects </h2>
-      <
     </div>
     <footer id="footer">
       <div class = "container-fluid">
