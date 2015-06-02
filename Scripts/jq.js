@@ -14,14 +14,14 @@ $(document).ready(function(){ /* Smooth Scrolling Function */
 	});
 });
 
-$(function play(){
+function play(){
 	var player = document.getElementById("player");
 	//player.play();
-});
+};
 
 $(document).ready(play());
 
-$(document).ready(function () {
+$(document).ready(function(){
 	$(".navbar-nav li a").click(function(event) {
 		$(".navbar-collapse").collapse('hide');
 	});
