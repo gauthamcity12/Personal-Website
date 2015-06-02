@@ -27,4 +27,16 @@ $(document).ready(function () {
 	});
 });
 
+$(window).scroll(function() {
+
+    if ($(this).scrollTop()>0)
+     {
+        $('.message_box').fadeOut();
+     }
+    else
+     {
+      $('.message_box').fadeIn();
+     }
+});
+
 
