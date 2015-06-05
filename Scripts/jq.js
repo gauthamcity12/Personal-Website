@@ -29,14 +29,10 @@ $(document).ready(function(){
 
 $(window).scroll(function() {
 
-    if ($(this).scrollTop()>0)
-     {
-        $('.message_box').fadeOut();
-     }
-    else
-     {
-      $('.message_box').fadeIn();
-     }
+    if ($(this).scrollTop()>7)
+    {
+    	$('.message_box').fadeTo("slow",0);
+    }
 });
 
 

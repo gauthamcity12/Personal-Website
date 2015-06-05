@@ -47,10 +47,16 @@ footer {
     height: 25px;
 }
 .message_box {
-	position: absolute;
-	background: yellow;
+	position: relative;
+	margin-left: auto;
+	width: 130px;
+	height: 70px;
+	background: #222222;
 	padding:5px;
-	border:1px solid #CCCCCC;
 	text-align:center;
 	font-weight:bold;
+}
+
+.message_box p{
+	color:white;
 }
