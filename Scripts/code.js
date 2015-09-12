@@ -1,6 +1,7 @@
 function fillRect(){
 	var pg = document.getElementById("rect");
 	pg.style.borderColor = "blue";
+	//pg.style.background-color = "black";
 }
 
 function revert(){
@@ -8,5 +9,5 @@ function revert(){
 	pg.style.borderColor = "orange";
 }
 
-document.getElementById("rect").onmouseover = function() {fillRect()};
-document.getElementById("rect").onmouseout = function() {revert()};
+//document.getElementById("rect").onmouseover = function() {fillRect()};
+//document.getElementById("rect").onmouseout = function() {revert()};

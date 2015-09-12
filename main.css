@@ -2,7 +2,7 @@ body, html {
 	width: 100%;
 	color: white;
 	background: url("3.png");
-	padding-top: 70px; 
+	padding-top: 70px;
 	padding-bottom: 30px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -25,10 +25,9 @@ p{
 }
 
 .rows img{
-	width: 130px;
-	height: 130px;
+	width: 150px;
+	height: 150px;
 	padding: 10px;
-	text-align: center;
 	background-color: transparent;
 	/*box-shadow: 0px 0px 5px #000000*/
 }
@@ -59,4 +58,21 @@ footer {
 
 .message_box p{
 	color:white;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    color:#f00;
+    background-color:rgba(255,255,255,0.8);
+    width: 130px;
+    height: 130px;
+    line-height:100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }

@@ -12,14 +12,64 @@ $(document).ready(function(){ /* Smooth Scrolling Function */
 	    });
 	    return false;
 	});
+
+
+	$("#rect").mouseover(function(){
+		$("#rect").fadeOut(function() {
+		  $(this).load(function() { $(this).fadeIn(); });
+		  $(this).attr("src", "Images/Info1.jpg");
+		});
+	});
+
+	$("#rect").mouseout(function(){
+		$("#rect").fadeOut(function() {
+		  $(this).load(function() { $(this).fadeIn(); });
+		  $(this).attr("src", "Images/TextYaLaterHiResIcon.jpg");
+		});
+	});
+
+	$("#rect2").mouseover(function(){
+		$("#rect2").fadeOut(function() {
+		  $(this).load(function() { $(this).fadeIn(); });
+		  $(this).attr("src", "Images/noteworthy.jpg");
+		});
+	});
+
+	$("#rect2").mouseout(function(){
+		$("#rect2").fadeOut(function() {
+		  $(this).load(function() { $(this).fadeIn(); });
+		  $(this).attr("src", "Images/note_launcher.jpg");
+		});
+	});
+
+	$("#rect3").mouseover(function(){
+		$("#rect3").fadeOut(function() {
+		  $(this).load(function() { $(this).fadeIn(); });
+		  $(this).attr("src", "Images/muleinfo.jpg");
+		});
+	});
+
+	$("#rect3").mouseout(function(){
+		$("#rect3").fadeOut(function() {
+		  $(this).load(function() { $(this).fadeIn(); });
+		  $(this).attr("src", "Images/MULE.jpg");
+		});
+	});
+
+	$("#rect4").mouseover(function(){
+		$("#rect4").fadeOut(function() {
+		  $(this).load(function() { $(this).fadeIn(); });
+		  $(this).attr("src", "Images/authinfo.jpg");
+		});
+	});
+
+	$("#rect4").mouseout(function(){
+		$("#rect4").fadeOut(function() {
+		  $(this).load(function() { $(this).fadeIn(); });
+		  $(this).attr("src", "Images/auth.jpg");
+		});
+	});
 });
-
-function play(){
-	var player = document.getElementById("player");
-	//player.play();
-};
-
-$(document).ready(play());
 
 $(document).ready(function(){
 	$(".navbar-nav li a").click(function(event) {
@@ -34,5 +84,3 @@ $(window).scroll(function() {
     	$('.message_box').fadeTo("slow",0);
     }
 });
-
-
