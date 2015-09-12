@@ -16,6 +16,14 @@ h1 small{
 	text-align: center;
 }
 
+#contact {
+	text-align: center;
+}
+
+#quote {
+	text-align: center;
+}
+
 h2 small {
 	/*background-color: #625F63;*/
 	color: white;
@@ -75,4 +83,12 @@ footer {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+.im-centered {
+	margin:auto;
+}
+
+.cinfo {
+	display:inline;
+	text-align: center;
 }

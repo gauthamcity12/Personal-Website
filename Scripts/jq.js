@@ -69,6 +69,7 @@ $(document).ready(function(){ /* Smooth Scrolling Function */
 		  $(this).attr("src", "Images/auth.jpg");
 		});
 	});
+
 });
 
 $(document).ready(function(){
